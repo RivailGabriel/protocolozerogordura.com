@@ -115,8 +115,8 @@
 <p>Você tomara cuidado para não exagerar na perda de peso?</p>
 </div>
 <div class="answer">
-<button class="btn" onclick="terceira()">SIM</button>
-<button class="btn" onclick="terceira()">NÃO</button>
+<button class="btn" onclick="redirect()">SIM</button>
+<button class="btn" onclick="redirect()">NÃO</button>
 </div>
 </div>
 </div>
@@ -127,8 +127,6 @@
       document.getElementById("primeira").classList.add("hide")
       document.getElementById("segunda").classList.remove("hide")
     }
-    function terceira() {
-      document.getElementById("segunda").classList.add("hide")
     }
     function redirect() {
       location.href = "https://protocolozerogordura.com/"
